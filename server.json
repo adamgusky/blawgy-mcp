@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.blawgy/blawgy",
+  "title": "Blawgy",
+  "description": "Research keywords, plan, write, update and publish SEO blog posts on your site from any agent.",
+  "version": "1.0.0",
+  "websiteUrl": "https://blawgy.com/mcp",
+  "repository": {
+    "url": "https://github.com/adamgusky/blawgy-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://blawgy.com/favicon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.blawgy.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Bearer <Blawgy API key> from Settings > AI agents. Leave out to sign in with OAuth instead.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

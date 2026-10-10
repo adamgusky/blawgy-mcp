@@ -1,0 +1,11 @@
+{
+  "name": "blawgy",
+  "version": "1.0.0",
+  "description": "Run your Blawgy SEO blog from Cursor. Research keywords, plan, write, update and publish posts on your site.",
+  "author": { "name": "Blawgy", "email": "adam@blawgy.com" },
+  "homepage": "https://blawgy.com/mcp",
+  "repository": "https://github.com/adamgusky/blawgy-mcp",
+  "license": "MIT",
+  "keywords": ["seo", "blog", "content", "keyword research", "wordpress", "shopify", "webflow"],
+  "logo": "logo.png"
+}

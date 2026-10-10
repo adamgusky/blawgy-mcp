@@ -1,0 +1,13 @@
+{
+  "name": "blawgy",
+  "version": "1.0.0",
+  "description": "Run your Blawgy SEO blog from Gemini CLI. Research keywords, plan, write, update and publish posts on your site.",
+  "mcpServers": {
+    "blawgy": {
+      "httpUrl": "https://app.blawgy.com/mcp",
+      "oauth": { "enabled": true, "authProviderType": "dynamic_discovery" },
+      "timeout": 600000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
